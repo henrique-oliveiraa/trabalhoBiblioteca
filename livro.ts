@@ -1,20 +1,24 @@
-import { genero } from "./Genero";
-import { statusLivro } from "./StatusLivro";
+import { Genero } from "./Genero"
+import { statusLivro } from "./statusLivro"
 
 export class Livro {
-    titulo: string;
-    autor: string;
-    generos: genero;
-    status: statusLivro;
 
-    constructor(titulo: string, autor: string, generos: genero, status: statusLivro) {
-        this.titulo = titulo;
+    id_livro: number;
+    nome_livro: string;
+    autor: string;
+    genero: Genero[];
+    statusLivro: statusLivro;
+
+    constructor(id_livro: number, nome_livro: string, autor: string, genero: Genero, statusLivro: statusLivro) {
+       
+        this.id_livro = id_livro;
+        this.nome_livro = nome_livro;
         this.autor = autor;
-        this.generos = generos;
-        this.status = status;
+        this.genero = [];
+        this.statusLivro = statusLivro; 
+
     }
 }
-
 
 
 
