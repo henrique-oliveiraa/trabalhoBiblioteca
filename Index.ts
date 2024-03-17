@@ -13,7 +13,7 @@ const livro2: Livro = new Livro(2, "Carros", "Heique", Genero.genero2, statusLiv
 
 const livro3: Livro = new Livro(3, "Estrelas", "Bruno", Genero.genero3, statusLivro.emprestado);
 
-const livro4: Livro = new Livro(4, "Mulher Maravilha", "Felipe", Genero.genero4, statusLivro.reservado);
+const livro4: Livro = new Livro(4, "Pequeno Principe", "Felipe", Genero.genero4, statusLivro.reservado);
 
 
 //instância da classe Biblioteca
