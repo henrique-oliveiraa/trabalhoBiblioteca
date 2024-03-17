@@ -9,7 +9,7 @@ const livro0: Livro = new Livro(0, "Homem de Ferro", "Douglas", Genero.genero0, 
 
 const livro1: Livro = new Livro(1, "Mulher Maravilha", "Arthur", Genero.genero1, statusLivro.atrasado);
 
-const livro2: Livro = new Livro(2, "Carros", "Heique", Genero.genero2, statusLivro.reservado);
+const livro2: Livro = new Livro(2, "Carros", "Heique", Genero.genero2, statusLivro.disponivel);
 
 const livro3: Livro = new Livro(3, "Estrelas", "Bruno", Genero.genero3, statusLivro.emprestado);
 
